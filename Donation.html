@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+<link  href="../Styles/headandfoot.css" rel="stylesheet">   
+<link  href="../Styles/Donation.css" rel="stylesheet"> 
+<title>BOOK-A-BOOK</title>
+</head>
+
+<body>
+<div class="flex-container">
+<header>
+    <a href="Home.html" id="home"><img src="../images/logo.png"  alt="main logo"> </a>
+    <a href="/login.html" id="login">Login / Sign Up</a>
+</header>
+
+<nav id="menubar">
+    <ul>
+        <li class="list"><a href="category.html">Category</a>
+        <ul  class="catt">
+            <a href="Teen.html"> Teen</a>
+            <a href="Youth.html"> Youth</a>
+            <a href="Scitizen.html"> Senior  Citizen</a>
+        </ul>
+        </li>
+
+        <li><a href="product.html">Products </a></li>
+        <li><a href="Activity.html">Account Activity </a></li>
+        <li id="payment_menu"> <a href="payment.html">Payment</a></li>
+        <li id="searchbox_input">
+            <input type="text" placeholder="Search for books & authors.."   >
+        </li>
+        <li id="searchbox_button"><button type="submit" placeholder="Search book" value="Search Book">Search</button> </li>
+        <a href="/cart.html"><img id="cartpic" src="../images/shop.png"  alt="cart logo"></a>
+    </ul>
+</nav>
+
+<main>
+    <div id=wrapper>
+        <div id="leftbar">
+            <p><a href="" class="leftlink">Children's book</a></p>
+            <p><a href="" class="leftlink">Teen's book</a></p>
+            <p><a href="" class="leftlink">Senior's book</a></p>
+        </div>
+        <div id='mainpart'>
+          <h1>Donate a book</h1>
+           <p>If you have any books inlcuding children's books, textbooks or senior books that you don't have space to arrange or no longer need, we can help you
+           to reuse those books and benefit other people in our community.
+           You can drop off the books to the shopper drug store near you, or you can send us email and 
+           make a appointment, we can pick up those books in your house. </p>
+           <p>Requirement:books should be in good condition, age of donated books is not a factor. </p>
+        
+           <form id="cform" name="cform" method="get">
+                    
+                <fieldset >
+                <legend>contact us</legend>
+                <div id="contactus">
+                    <label for="name">Name:&nbsp; </label> <input type="text" name="name" id="name" required autofoucs/><span> *</span><br>
+                    <label for="email">E-mail:&nbsp; </label> <input type="email" name="email" id="email" required autofoucs/><span> *</span><br>
+                    <label for="address">Address:&nbsp; </label> <input type="text" name="address"  id="address" required/><span> *</span><br>
+                    <label for="phone">Phone:&nbsp; </label>  <input type="text" name="phone" id="phone" required /><span> *</span><br>
+                    <label for="numofbook">Number of books to be donated:&nbsp; </label>  <input type="text" name="numofbook" id="numofbook" required /><span> *</span><br>
+                </div>
+                    
+                 </br>
+                <input type="button" id="button" value="Submit"/>
+                </fieldset>
+                <br/>
+                
+            </form>
+            
+           
+            <br/>
+        </div>
+        
+        <div id="bottomlink">
+            <p><a href="" class="bottomlink">Children's book</a></p>
+            <p><a href="" class="bottomlink">Teen's book</a></p>
+            <p><a href="" class="bottomlink">Senior's book</a></p>
+            <p><a href="#top">Return to top</a></p>
+        </div> 
+        </div>
+
+ </main>
+
+ <footer>
+        <nav id="bottombar">
+            <div id=contactus>
+                <p id="contact"><a href="contact.html">Contact Us </a> </p>
+                <p id="call"><img id="call1" src="/images/telephone-call.png" alt='call'>+1-333-222-4444</p>
+                <p id="mailImg"><img id="mailImg1" src="/images/mail.png" alt='mail' >&nbsp;support@bookabook.com</p>
+            </div>
+            <div>
+                <p id="terms"><a href="terms.html">Terms and Conditions </a></p>
+            </div>  
+            <div id=returnbook>
+                <p id="return"> <a href="return.html">Return a Book </a> </p><br>
+                <p id="return_text"><img id="return_text1" src="/images/quoted.png" alt='return'> &nbsp;Return your favourite books at your own ease!&nbsp;&nbsp;
+                    <img id="return_text2" src="/images/quote.png" alt='return' > </p>
+            </div>
+        
+       </nav>
+    
+     <div id='socialmedia'>
+        <a href="#"><img id="footer_img1" src="/images/facebook.png" ></a>
+        <a href="#"><img id="footer_img2" src="/images/instagram.png"></a>
+        <a href="#"><img id="footer_img3" src="/images/twitter.png" ></a>
+        <a href="#"><img id="footer_img4" src="/images/youtube.png" ></a>
+    </div>
+     <span style="color: aliceblue; font-family: 'PT Sans', sans-serif;">&copy; 2019 Bookabook .All Rights Reserved.</span>
+    </footer>
+
+    <script src='js/Donation.js'></script>
+</body>
+</html>
